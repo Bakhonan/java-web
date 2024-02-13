@@ -98,7 +98,7 @@ cat /home/ngwenyba_adm/sizes.txt
 15. create keytab file
 **
 Type ktutil
-- ktutil: addent -password -p  <your intranet id>@INTRANET.BARCAPINT.COM -k 1 -e RC4-HMAC
+- ktutil: addent -password -p  <your intranet id>@DOMAIN -k 1 -e RC4-HMAC
 - ktutil: wkt <your intranet id>.keytab
 - ktutil: q
 https://gist.github.com/treasuredhope
